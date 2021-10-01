@@ -559,6 +559,10 @@ h3 span {
     padding: 110px 0;
 }
 
+.bg-white {
+    background: #fff;
+}
+
 .bg-gray {
     background: #fafafa;
 }
