@@ -1300,6 +1300,10 @@ function popup_login_init(){
 	$(".top-login").on("click", function() {
 		$(".login-popup").addClass("open");
 	})
+	
+	$(".package-details-trigger").on("click", function() {
+		$("#packageDetails").css("display", "block");
+	})
 
 	$(".login-popup .close-button").on("click", function() {
 		$(".login-popup").removeClass("open");
